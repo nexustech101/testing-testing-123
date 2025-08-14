@@ -1,0 +1,12 @@
+<div align="center">
+  <em>"The best way to predict the future is to invent it."</em> — Alan Kay
+</div>
+<span id="i"></span>
+<script type="text/javascript">
+  const container = document.getElementById("i"); // Fixed typo: getElementByID -> getElementById
+  for (let i = 0; i < 5; i++) { // Fixed: int -> let
+    const newElement = document.createElement("em");
+    newElement.innerText = `Hello World ${i}`;
+    container.appendChild(newElement);
+  }
+</script>
